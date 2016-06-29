@@ -3,7 +3,7 @@ FROM travix/base-debian-jre8:latest
 MAINTAINER Travix
 
 # build time environment variables
-ENV SONAR_VERSION=5.5 \
+ENV SONAR_VERSION=5.6 \
     SONARQUBE_HOME=/opt/sonarqube
 
 # install sonarqube
